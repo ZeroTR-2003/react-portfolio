@@ -33,8 +33,8 @@ const Hero = () => {
     <motion.span 
     initial={{x:-100,opacity:0}}
     animate={{x:0,opacity:1}}
-    transition={{duration:0.5,opacity:2}}
-    className='bg-gradient-to-r from-purple-700 via-slate-500 to-blue-600 bg-clip-text text-4xl text-transparent'>
+    transition={{duration:0.5,opacity:1}}
+    className='bg-gradient-to-r text-4xl text-blue-400'>
       {professions[index]}
     </motion.span>
 

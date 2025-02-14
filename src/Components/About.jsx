@@ -24,8 +24,8 @@
             <img className='w-full max-w-sm h-auto rounded-[16px] ' src={about2} alt="About me" />
           </motion.div>
           <motion.div
-           whileInView={{opacity:0,x:0}} 
-           initial={{opacity:1,x:-100}}
+           whileInView={{opacity:1,x:0}} 
+           initial={{opacity:0,x:-100}}
            transition={{duration:0.4}}
           className='w-full lg:w-1/2 flex justify-center items-center'>
             <p className='max-w-xl text-center text-base lg:text-left font-extralight tracking-tighter whitespace-pre-line'>{ABOUT_TEXT}</p>
